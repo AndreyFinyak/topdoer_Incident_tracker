@@ -6,7 +6,6 @@ services:
     environment:
       APP_CONFIG__DB__URL: postgresql+asyncpg://postgres:postgres@pg:5432/test_case
       APP_CONFIG__DB__ECHO: 0
-    env_file: .env.docker
     ports:
       - "8000:8000"
     depends_on:

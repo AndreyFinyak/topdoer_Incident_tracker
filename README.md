@@ -21,6 +21,8 @@ cd topdoer_Incident_tracker
 
 Собери и запусти проект:
 
+Cопируй файл `.env.example` в `.env` и заполни его данными.
+
 ```bash
 docker compose up -d --build
 ```
